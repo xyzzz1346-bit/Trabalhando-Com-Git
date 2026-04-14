@@ -12,4 +12,4 @@ if (passos >= meta) {
 } else {
     console.log(`Você ainda precisa caminhar mais ${Math.abs(diferenca)} passos para atingir sua meta diária de ${meta} passos. Continue se movendo!`)
 }
-console.log("====================================\n")
+console.log("====================================")
