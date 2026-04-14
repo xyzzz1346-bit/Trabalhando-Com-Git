@@ -1,4 +1,3 @@
-// Atividade 9
 
 const readline = require(`readline-sync`)
 
