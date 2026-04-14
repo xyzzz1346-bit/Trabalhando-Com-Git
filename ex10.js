@@ -5,6 +5,6 @@ let totalPaginas = 300
 let paginasLidas = readline.questionInt('Quantas páginas já foram lidas?: ')
 let percentual = (paginasLidas / totalPaginas) * 100
 
-console.log('\n========== Progresso do Livro ==========' )
+console.log('========== Progresso do Livro ==========' )
 console.log(`Você já concluiu ${Math.round(percentual)}% do livro.`)
-console.log('========================================\n')
+console.log('========================================')
