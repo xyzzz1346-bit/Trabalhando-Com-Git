@@ -7,10 +7,10 @@ let horasEstudadas = readline.questionFloat("Informe quantas horas você estudou
 
 let diferenca = meta - horasEstudadas
 
-console.log("\n========== Resultado dos Estudos ==========\n")
+console.log("========== Resultado dos Estudos ==========")
 if (horasEstudadas >= meta) {
     console.log(`Parabéns! Voce atingiu sua meta de ${meta} horas de estudo no mês!`)
 } else {
-    console.log(`Voce ainda precisa estudar mais ${Math.abs(diferenca).toFixed(2)} horas para atingir sua meta de ${meta} horas. Continue se dedicando!`)
+    console.log(`Voce ainda precisa estudar mais ${Math.abs(diferenca)} horas para atingir sua meta de ${meta} horas. Continue se dedicando!`)
 }
-console.log("\n=========================================\n")
+console.log("=========================================")
