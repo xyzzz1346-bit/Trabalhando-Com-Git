@@ -8,6 +8,6 @@ let valorDoPrato = readline.question("Digite o valor do prato: R$ ");
 console.log(`\n=== Resumo do Pedido ===`);
 console.log(`Cliente: ${nome}`);
 console.log(`Prato escolhido: ${nomeDoPrato}`);
-console.log(`Valor: R$ ${parseFloat(valorDoPrato).toFixed(2)}`);
-console.log(`========================\n`);
+console.log(`Valor: R$ ${parseFloat(valorDoPrato)}`);
+console.log(`========================`);
 
