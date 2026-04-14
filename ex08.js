@@ -5,11 +5,11 @@ let idadeMinima = 18
 
 let idade = readline.questionInt("Informe a idade da pessoa: ")
 
-console.log("\n========== Restrição da Entrada ==========\n")
+console.log("========== Restrição da Entrada ==========")
 
 if (idade >= idadeMinima) {
     console.log(`Entrada permitida! A pessoa tem ${idade} anos e pode entrar no evento.`)
 } else {
     console.log(`Entrada não permitida! A pessoa tem ${idade} anos e só é permitido entrar no evento com ${idadeMinima} anos ou mais.`)
 }
-console.log("\n=========================================\n")
+console.log("=========================================")
