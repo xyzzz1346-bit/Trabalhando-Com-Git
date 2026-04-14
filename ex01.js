@@ -1,4 +1,3 @@
-// Atividade 1
 
 const readline = require('readline-sync');
 
@@ -10,7 +9,6 @@ console.log("Olá, Alice! Bem-vinda de volta!")
 console.log(`Olá, ${nome}! Prazer em conhecê-lo!`)
  }
 
-//Atividade 2
 const readline = require('readline-sync');
 
 let nome = readline.question("Digite seu nome: ")
