@@ -1,4 +1,3 @@
-// ATIVIDADE 11
 
 const prompt = require('readline-sync')
 
