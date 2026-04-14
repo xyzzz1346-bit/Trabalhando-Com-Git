@@ -7,10 +7,10 @@ let dinheiroGuardado = readline.questionFloat("informe quanto você guardou? R$:
 
 let diferenca = objetivo - dinheiroGuardado
 
-console.log("\n========== Resultado da Economia ==========\n")
+console.log("========== Resultado da Economia ==========")
 if (dinheiroGuardado >= objetivo) {
-    console.log(`Parabéns! Você atingiu seu objetivo de economizar R$ ${objetivo.toFixed(2)}!`)
+    console.log(`Parabéns! Você atingiu seu objetivo de economizar R$ ${objetivo!`)
 } else {
-    console.log(`Você ainda precisa economizar mais R$ ${Math.abs(diferenca).toFixed(2)} para atingir seu objetivo de R$ ${objetivo.toFixed(2)}. Continue economizando!`)
+    console.log(`Você ainda precisa economizar mais R$ ${Math.abs(diferenca)} para atingir seu objetivo de R$ ${objetivo. Continue economizando!`)
 }
-console.log("========================================\n")
+console.log("========================================")
